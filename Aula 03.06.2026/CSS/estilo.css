@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #000000;
+	/*background: linear-gradient(#000000, #FFEDCD);*/
+	background-size: 250vw 150vh;
+	background-repeat: no-repeat;
+}
+h1{
+	color: #FF4242;
+	text-align: center;
+	padding-top: 3vh;
+	font-size: 28pt;
+	font-family: "Sixtyfour Convergence";
+}
+h2{
+	color: #FFEDCD;
+	text-align: center;
+	padding-top: 0vh;
+	font-size: 16pt;
+}
+p{
+	color: #FFEDCD;
+	text-align: center;
+	font-size: 16pt;
+}
