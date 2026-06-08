@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
 *{
 	margin: 0px;
 	padding: 0px;
@@ -10,12 +10,11 @@ body{
 	background-repeat: no-repeat;
 }
 h1{
-	color: #788DFE;
+	color: #FF4242;
 	text-align: center;
 	padding-top: 3vh;
 	font-size: 28pt;
-	font-family: "Eagle Lake";
-	font-style: normal;
+	font-family: "Sixtyfour Convergence";
 }
 h2{
 	color: #FFEDCD;
@@ -27,76 +26,4 @@ p{
 	color: #FFEDCD;
 	text-align: center;
 	font-size: 16pt;
-}
-ul{
-	width: 30vw;
-	margin-left: 35vw;
-	margin-right: 35vw;
-	background-color: black;
-	border:3px inset black;
-	border-color: #788DFE;
-	color: #FFEDCD;
-	font-size: 25px;
-	border-radius: 16px;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
-	margin-top:0.5%;
-	margin-bottom: 0.5%;
-	list-style: circle;
-	list-style-image: url(../img/seta1.png);
-}
-/*alinhar imagem com texto da lista*/
-ul li{
-	width: 30%;
-	margin-left: 12%;
-}
-table{
-	color: #FFEDCD;
-	width: 40vw;
-	margin-left: 30vw;
-	margin-top: 5vh;
-	border: 1px inset #FFEDCD;
-	text-align: center;
-	border-collapse: collapse;
-	align-content: center;
-}
-table th{
-	background-color: #788DFE;
-	color: black;
-	border: 1px solid #FFEDCD;
-}
-table td{
-	border:1px solid #FFEDCD;
-}
-marquee{
-	/*background-color: #788DFE;*/
-	font-size: 30pt;
-	width: 99vw;
-	height: 10vh;
-	align-content: center;
-	animation-name: piscar;
-	animation-duration: 1s;
-	animation-iteration-count: infinite;
-}
-@keyframes piscar{
-	0%{
-		color: #7BAAFC;
-	}
-	20%{
-		color: #7CD4FC;
-	}
-	40%{
-		color: #7C82FC;
-	}
-	60%{
-		color: #7CFCFC;
-	}
-	80%{
-		color: #9F7CFC;
-	}
-	100%{
-		color: #8045FC;
-	}
 }
