@@ -1,0 +1,69 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+section{
+	display: flex;
+	justify-content: center;
+}
+body{
+	background-image: url(../img/bliss.jpg);
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+section.menu{
+	width: 40vw;
+	margin-left: 30vw;
+	height: auto;
+	background-color: rgb(32,214,214,0.3);
+	border: 10px ridge black;
+	border-radius: 16px;
+	margin-top: 7.5vh;
+}
+section.gifs{
+	width: auto;
+	height: auto;
+	flex-wrap: wrap;
+}
+img.gifs{
+	justify-content: center;
+	margin-top: 125px;
+	width: 12%;
+	height: 12%;
+}
+ul.nav{
+	list-style-type: none;
+	width: 50%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	border: 3px solid limegreen;
+}
+ul.nav li{
+	background-color: black;
+	border-radius: 8px;
+	border: 1px ridge limegreen;
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+ul.nav li a{
+	font-family: "Tahoma";
+	text-decoration: none;
+	font-size: 20px;
+	display: block;
+	color: limegreen;
+}
+ul.nav li:hover{
+	background-color: skyblue;
+}
+ul.nav li:hover a{
+	color: black;
+	font-size: 2em;
+}
