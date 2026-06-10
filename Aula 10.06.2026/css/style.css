@@ -1,0 +1,249 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+section{
+	display: flex;
+	justify-content: center;
+}
+body{
+	background-image: url(../img/bliss.jpg);
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+body.body2{
+	background-image: url(../img/vista.jpg);
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+body.rei{
+	background-image: url(../img/reiback.jpg);
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+h1{
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h2{
+	color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+section.menu{
+	width: 40vw;
+	margin-left: 30vw;
+	height: auto;
+	background-color: rgb(32,214,214,0.3);
+	border: 10px ridge black;
+	border-radius: 16px;
+	margin-top: 7.5vh;
+}
+section.gifs{
+	width: auto;
+	height: auto;
+	flex-wrap: wrap;
+}
+img.gifs{
+	justify-content: center;
+	margin-top: 125px;
+	width: 12%;
+	height: 12%;
+}
+img.rei{
+	justify-content: center;
+	margin-top: 125px;
+	width: 15.7%;
+	height: 15.7%;
+}
+ul.nav{
+	list-style-type: none;
+	width: 50%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	border: 10px ridge limegreen;
+}
+ul.nav li{
+	background-color: black;
+	border-radius: 8px;
+	border: 7.5px ridge limegreen;
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+ul.nav li a{
+	font-family: "Tahoma";
+	text-decoration: none;
+	font-size: 20px;
+	display: block;
+	color: limegreen;
+}
+ul.nav li:hover{
+	background-color: limegreen;
+}
+ul.nav li:hover a{
+	color: black;
+	font-size: 2em;
+}
+section.div1{
+	width: 60vw;
+	margin-left: auto;
+	margin-right: auto;
+	height: 40vh;
+	margin-top: 5vh;
+	background-color: rgb(0, 0, 0, 0.5);
+	border: 16px groove black;
+}
+#titulo1{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+	color: #B6DB00;
+	font-family: "Papyrus";
+}
+#video1{
+	width: 35%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+section.letra1{
+	background-color: rgb(0, 0, 0, 0.5);
+	width: 60vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5vh;
+	height: auto;
+	border: 16px groove black;
+	text-align: center;
+
+}
+section.letra1 pre{
+	font-family: "Papyrus";
+	color: #B6DB00;
+}
+section.voltar{
+	background-color: rgb(0, 0, 0, 0.5);
+	width: 10vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2.5vh;
+	margin-bottom: 2vh;
+	height: auto;
+	border: 8px groove black;
+	text-align: center;
+	font-size: 40px;
+	font-family: "Papyrus";
+}
+section.voltar div a{
+	color: #B6DB00;
+	text-decoration: none;
+}
+section.mapa{
+	width: 800px;
+	height: 600px;
+	margin-top: 10vh;
+	margin-right: auto;
+	margin-left: auto;
+	border: 8px groove black;
+}
+section.voltar2{
+	background-color: rgb(0, 0, 0, 0.5);
+	width: 5vw;
+	margin-left: 3vw;
+	margin-right: auto;
+	margin-top: 2.5vh;
+	margin-bottom: 2vh;
+	height: auto;
+	border: 8px groove grey;
+	text-align: center;
+	font-size: 25px;
+	font-family: "Papyrus";
+}
+section.voltar2 div{
+	width: 100%;
+}
+section.voltar2 div a{
+	color: #B6DB00;
+	text-decoration: none;
+	display: block;
+}
+section.menu2{
+	background-color: rgb(0, 0, 0, 0.5);
+	width: 10vw;
+	margin-left: 3vw;
+	margin-right: auto;
+	margin-top: 2.5vh;
+	margin-bottom: 1vh;
+	height: auto;
+	border: 8px groove grey;
+	text-align: center;
+	font-size: 25px;
+	font-family: "Papyrus";
+}
+section.menu2 div{
+	width: auto;
+}
+section.menu2 div a{
+	color: #B6DB00;
+	text-decoration: none;
+	display: block;
+}
+section.menu3{
+	background-color: rgb(0, 0, 0, 0.5);
+	width: 5vw;
+	margin-left: 3vw;
+	margin-right: auto;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	height: auto;
+	border: 8px groove grey;
+	text-align: center;
+	font-size: 25px;
+	font-family: "Papyrus";
+}
+section.menu3 div{
+	width: 100%;
+}
+section.menu3 div a{
+	color: #B6DB00;
+	text-decoration: none;
+	display: block;
+}
+section.menu4{
+	background-color: rgb(0, 0, 0, 0.5);
+	width: 5vw;
+	margin-left: 3vw;
+	margin-right: auto;
+	margin-top: 1vh;
+	margin-bottom: 2vh;
+	height: auto;
+	border: 8px groove grey;
+	text-align: center;
+	font-size: 25px;
+	font-family: "Papyrus";
+}
+section.menu4 div{
+	width: 100%;
+}
+section.menu4 div a{
+	color: #B6DB00;
+	text-decoration: none;
+	display: block;
+}
