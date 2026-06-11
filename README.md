@@ -1,3 +1,3 @@
-# Programador_Sistemas_Junho2026
+# Programador de Sistemas SENAC - Junho 2026
 
 Hi there
