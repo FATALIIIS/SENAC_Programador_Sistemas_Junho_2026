@@ -1,0 +1,131 @@
+:root{
+	--cor_texto: white;
+	--letra:"Castellar";
+	--fundo: #4B75FF;
+	--borda: 1px solid blue;
+	--arredondar: 16px;
+	--tamanho_font: 1.2vw;
+	--botao: limegreen;
+	--borda_botao: 1px solid white;
+	--sombra_texto: 2px 2px 6px black;
+}
+body.background{
+	background-image: url(../img/bliss.jpg);
+	background-size: 100vw 120vh;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: bottom;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+section{
+	display: flex;
+	justify-content: center;
+}
+section.topo{
+	width: 100vw;
+	height: 10vh;
+	background-color: var(--fundo);
+}
+#logo{
+	width: 10%;
+	height: 99%;
+}
+#logo img{
+	max-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height: auto;
+}
+#menu{
+	width: 90%;
+	height: 99%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+ul.nav{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 30%;
+}
+ul.nav li{
+	position: relative;
+	width: 13%;
+	margin-right: 6%;
+	cursor: pointer;
+	font-family: var(--letra);
+	font-size: var(--tamanho_fonte);
+	text-align: center;
+	background-color: var(--botao);
+	float: left;
+	color: var(--cor_texto);
+	border: var(--borda_botao);
+	text-shadow: var(--sombra_texto);
+}
+ul.nav li ol{
+	display: none;
+	list-style-type: none;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	width: 100%;
+	z-index: 1;
+}
+ul.nav li:hover ol{
+	display: block;
+}
+ul.nav li ol li{
+	float: none;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0px;
+	margin-left: -0.5%;
+}
+ul.nav li ol li a{
+	text-decoration: none;
+	color: var(--cor_texto);
+	display: block;
+}
+ul.nav li ol li:hover{
+	background-color: green;
+}
+section.conteudo{
+	width: 90vw;
+	height: 75vh;
+	border: 3px solid black;
+	margin-top: 2%;
+	margin-left: 2%;
+}
+section.conteudo iframe{
+	width: 100%;
+	height: 100%;
+	border: none;
+	margin-top: 40px;
+}
+section.resultado{
+	flex-direction: column;
+	text-align: center;
+	width: 60vw;
+	min-height: 30vh;
+	height: auto;
+	margin-left: 20vw;
+	background-color: var(--fundo);
+	color: var(--letra);
+	border: var(--borda);
+	border-radius: var(--arredondar);
+	font-family: var(--letra);
+	margin-top: 10vh;
+	box-shadow: 10px 10px 6px black;
+}
+section.resultado h1{
+	font-family: var(--letra);
+	text-shadow: var(--sombra_texto);
+	color: white
+}
