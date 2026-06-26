@@ -1,3 +1,3 @@
 # Programador de Sistemas SENAC - Junho 2026
 
-Hi there
+Repositório do curso Programador de Sistemas do SENAC - Junho 2026
